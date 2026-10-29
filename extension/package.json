@@ -1,0 +1,18 @@
+{
+  "name": "linked2notion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension that reads the active tab URL, on the way to saving a LinkedIn job into Notion.",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.7",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

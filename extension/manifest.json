@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Linked2Notion",
+  "version": "0.1.0",
+  "description": "Reads the active tab URL. Later milestones save a LinkedIn job to Notion.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Linked2Notion"
+  },
+  "permissions": ["activeTab"]
+}
